@@ -8,10 +8,12 @@ Group:		X11/Applications
 Source0:	http://alexsnet.ru/wp-content/uploads/2009/02/astranslator-%{version}.zip
 # Source0-md5:	6aa6863975f4a36712dcdc533521572e
 URL:		http://alexsnet.ru/en/opensource/translator/
-BuildRequires:	QtCore-devel
+BuildRequires:	QtGui-devel
+BuildRequires:	QtNetwork-devel
 BuildRequires:	qt4-build >= 4.3.3-3
 BuildRequires:	qt4-qmake >= 4.3.3-3
 BuildRequires:	rpmbuild(macros) >= 1.129
+BuildRequires:	unzip
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
