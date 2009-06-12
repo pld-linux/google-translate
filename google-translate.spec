@@ -20,7 +20,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This application translates text via Google Translate engine.
 
 %description -l hu.UTF-8
-This application translates text via Google Translate engine.
+Ez az alkalmazás szövegeket fordít a Google Translate segítségével.
 
 %prep
 %setup -q -c -n ASTranslator
